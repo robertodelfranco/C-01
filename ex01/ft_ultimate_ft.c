@@ -10,7 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimat_ft(int *********nbr)
+#include <stdio.h>
+
+void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 	return ;
