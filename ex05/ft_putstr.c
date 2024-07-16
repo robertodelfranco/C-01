@@ -10,14 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 void	ft_putstr(char *str)
 {
-	int	len;
+	int	pos;
 
-	len = 0;
-	while (str[len] != 0)
+	pos = 0;
+	while (str[pos] != '\0')
 	{
-		write(1, &str[len], 1);
-		len++;
+		write(1, &str[pos], 1);
+		pos++;
 	}
 }
