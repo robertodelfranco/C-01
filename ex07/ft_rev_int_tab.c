@@ -15,19 +15,20 @@
 
 void	ft_rev_int_tab(int *tab, int size)
 {
-	int	aux;
-	int i;
+	int	jeff;
+	int	i;
 
 	i = 0;
-	while(i < size / 2)
+	while (i < size / 2)
 	{
-		aux = tab[i];
+		jeff = tab[i];
 		tab[i] = tab[size - 1 - i];
-		tab[size - 1 - i] = aux;
+		tab[size - 1 - i] = jeff;
 		i++;
 	}
 }
 
+/*
 int main(void)
 {
 	int tab[]= {0, 1, 2, 3, 4, 5, 6, 7};
@@ -43,3 +44,4 @@ int main(void)
 
     return 0;
 }
+*/

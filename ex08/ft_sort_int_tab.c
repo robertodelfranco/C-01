@@ -15,16 +15,16 @@
 void	ft_sort_int_tab(int *tab, int size)
 {
 	int	aux;
-	int np;
-	int p;
+	int	np;
+	int	p;
 
 	p = 0;
-	while(p < size - 1)
+	while (p < size - 1)
 	{
 		np = 0;
-		while(np < size - 1 - p)
+		while (np < size - 1 - p)
 		{
-			if(tab[np] > tab[np + 1])
+			if (tab[np] > tab[np + 1])
 			{
 				aux = tab[np];
 				tab[np] = tab[np + 1];
@@ -36,10 +36,11 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 }
 
+/*
 int main(void)
 {
-	int tab[]= {1, 3, 2, 0}; //9, 9, 1, 7, 3, 6, 5, 8, 4};
-    int size = 4;
+	int tab[]= {1, 3, 10, 9, 1, 7, 3, 6, 5, 8, 4};
+    int size = 11;
 	int np = 0;
     
 	ft_sort_int_tab(tab, size);
@@ -51,3 +52,4 @@ int main(void)
 
     return 0;
 }
+*/
