@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rdel-fra <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: rdel-fra <rdel-fra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 11:02:00 by rdel-fra          #+#    #+#             */
-/*   Updated: 2024/07/15 11:02:04 by rdel-fra         ###   ########.fr       */
+/*   Updated: 2024/11/08 18:00:15 by rdel-fra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,3 +17,14 @@ void	ft_ft(int *nbr)
 	*nbr = 42;
 	return ;
 }
+
+// int main()
+// {
+// 	int *nbr;
+// 	int	var;
+// 	var = 10;
+// 	nbr = &var;
+// 	ft_ft(nbr);
+// 	printf("%d\n", (var));
+// 	return (0);
+// }

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rdel-fra <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: rdel-fra <rdel-fra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 12:08:44 by rdel-fra          #+#    #+#             */
-/*   Updated: 2024/07/16 12:11:33 by rdel-fra         ###   ########.fr       */
+/*   Updated: 2024/11/08 18:00:29 by rdel-fra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,20 +28,16 @@ void	ft_rev_int_tab(int *tab, int size)
 	}
 }
 
-/*
-int main(void)
-{
-	int tab[]= {0, 1, 2, 3, 4, 5, 6, 7};
-    int size = 8;
-	int i = 0;
-    
-	ft_rev_int_tab(tab, size);
-	while(i < size)
-	{
-		printf("%d", tab[i]);
-		i++;
-	}
-
-    return 0;
-}
-*/
+// int main(void)
+// {
+// 	int tab[]= {0, 1, 2, 3, 4, 5, 6, 7};
+//     int size = 8;
+// 	int i = 0;
+// 	ft_rev_int_tab(tab, size);
+// 	while(i < size)
+// 	{
+// 		printf("%d", tab[i]);
+// 		i++;
+// 	}
+//     return 0;
+// }
